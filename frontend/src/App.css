@@ -1,0 +1,93 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 32px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+header p,
+.empty,
+.status {
+  margin: 0;
+  color: #4b5563;
+}
+
+.messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.message {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #fff;
+}
+
+.message.user {
+  background: #f3f4f6;
+}
+
+.role {
+  margin: 0 0 6px;
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.text {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.sources {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.error {
+  margin: 0;
+  color: #b91c1c;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background: #111827;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

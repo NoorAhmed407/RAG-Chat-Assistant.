@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+rag-env/
+
+# Secrets
+.env
+.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Empty lockfile left at the repo root
+/package-lock.json
+
+# OS
+.DS_Store
